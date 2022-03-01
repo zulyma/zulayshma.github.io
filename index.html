@@ -27,8 +27,7 @@
         <a href="#seccion2">Stack tecnológico</a>
         <a href="#seccion3">Proyecto</a>
         <a href="#seccion4">Intereses</a>
-        <a href="#seccion5">Buscador de películas</a>
-        <a href="#seccion6">Contáctame</a>
+        <a href="#seccion5">Contáctame</a>
     </nav>
 </aside>
 <main>
@@ -37,8 +36,8 @@
        <div id="about">
             <p class="hola">Hola <i class="fa-solid fa-heart fa-beat fa-2xs"></i></p>
            <h3>
-               Soy Bióloga apasionada por la tecnología y construcción de aplicaciones <em>web</em><br>
-               por lo que me he dedicado al estudio de tecnologías <em>Frontend</em> y <em>Backend</em>. <br>
+               Soy Bióloga apasionada por la tecnología y construcción de aplicaciones <em>web,</em><br>
+               con conocimiento en tecnologías <em>Frontend</em> y <em>Backend</em>. <br>
                Además disfruto llevar a cabo la maquetación e interactividad de interfaces <em>web</em>.
            </h3>
        </div>
@@ -47,47 +46,49 @@
    <section id="seccion2" class="section">
     
    
-   <h2>Stack tecnológico</h2>
+   <h2>Stack tecnológico
+    <i class="fas fa-cog fa-spin"></i>
+   </h2><br>
     <div class="container rounded">
       <div class="row">
         <div class="col-sm-2">
             <div class="card-body trans">
-              <i class="fa-brands fa-python fa-5x"></i>
+              <i class="fa-brands icons fa-python fa-5x"></i>
               <br>
               <span class="badge rounded-pill bg-warning text-dark">Python/Django</span>
             </div>
         </div>
         <div class="col-sm-2">
           <div class="card-body trans">
-            <i class="fa-brands fa-js-square fa-5x"></i>
+            <i class="fa-brands icons fa-js-square fa-5x"></i>
             <br>
             <span class="badge rounded-pill bg-warning text-dark">JavaScript/AJAX</span>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="card-body trans">
-            <i class="fa-brands fa-html5 fa-5x"></i>
+            <i class="fa-brands icons fa-html5 fa-5x"></i>
             <br>
             <span class="badge rounded-pill bg-warning text-dark">HTML</span>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="card-body trans">
-            <i class="fa-brands fa-css3 fa-5x"></i>
+            <i class="fa-brands icons fa-css3 fa-5x"></i>
             <br>
             <span class="badge rounded-pill bg-warning text-dark">CSS/Bootstrap</span>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="card-body trans">
-            <i class="fa-solid fa-solid-solid fa-code-fork fa-5x"></i>
+            <i class="fa-solid icons fa-solid-solid fa-code-fork fa-5x"></i>
             <br>
             <span class="badge rounded-pill bg-warning text-dark">MySQL/PostgreSQL</span>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="card-body trans">
-            <i class="fa-brands fa-git-alt fa-5x"></i>
+            <i class="fa-brands icons fa-git-alt fa-5x"></i>
             <br>
             <span class="badge rounded-pill bg-warning text-dark">GIT</span>
           </div>
@@ -104,7 +105,7 @@
       <i class="fa-solid fa-paw fa-beat-fade fa-4x"></i>
     </div>
     
-    <p>Sitio web para registro y adopción de mascotas</p>
+    <p>Registro y adopción de mascotas</p>
     <div id="youtube"></div>
    </section>
 
@@ -131,14 +132,14 @@
         <div class="carousel-item">
           <img src="assets/education.jpeg" class="d-block w-100" alt="education">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Educación</h5>
-            <p>Me encanta aprender cosas nuevas, aplicarlas y enseñarlas</p>
+            <h5>Educación Ambiental</h5>
+            
           </div>
         </div>
         <div class="carousel-item">
           <img src="assets/project.jpeg" class="d-block w-100" alt="project">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Profundizar en tecnologías sobre análisis de datos</h5>
+            <h5>Tecnologías de análisis de datos</h5>
             <p>Para desarrollar proyectos respetuosos con el medio ambiente</p>
           </div>
         </div>
@@ -146,12 +147,6 @@
           <img src="assets/traveling.jpeg" class="d-block w-100" alt="traveling">
           <div class="carousel-caption d-none d-md-block">
             <h5>Viajar</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="assets/movies.jpeg" class="d-block w-100" alt="movies">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Ver películas</h5>
           </div>
         </div>
       </div>
@@ -166,40 +161,8 @@
     </div>
 
    </section>
-
-  <section id="seccion5" class="section">
-     <h2>Buscador de películas</h2>
-     
-      <div class="card-body row no-gutters align-items-center">
-          <div class="col">
-              <input type="search" id="search"  placeholder="Buscar película" class="form-control form-control-bordeless" autocomplete="off">
-          </div>
-          <div class="col-auto">
-            <i class="fas fa-cog fa-spin fa-2x"></i>
-          </div>
-      </div>
-      <section>
-        
-        <div class="container rounded-3">
-          <div class="row movies" id="shows">
-            <p id="font-p">Encuentra alguna película</p>
-          </div>
-        </div>
-      </section>
-      <template id="show-template">
-            <div class="col-md-6">
-              <div class="card show">
-                  <img>
-                  <div class="card-body">
-                    <h3 id="name-movie"></h3>
-                    <article id="summary"></article>
-                    <a id="more"></a>
-                  </div>
-              </div>
-       </template>
-       
    
-   <section id="seccion6">
+   <section id="seccion5" class="section">
       <h2>Contáctame</h2>
       <form class="contact-form" action="https://formsubmit.co/zulayshma@gmail.com" method="POST" target="_blank" rel="noopener">
        
@@ -216,7 +179,7 @@
           <label for="floatingInput">Asunto</label>
         </div>
         <div class="form-floating">
-          <textarea class="form-control" name="message" placeholder="Déjame un mensaje" id="floatingTextarea" placeholder="Escribe tus comentarios" data-pattern="^.{1,255}$" title="Tu comentarios no debe exceder los 255 caracteres" required></textarea>
+          <textarea class="form-control" name="message" placeholder="Déjame un mensaje" id="floatingTextarea" placeholder="Escribe tus comentarios" data-pattern="^.{1,255}$" title="Tu comentarios no debe exceder los 255 caracteres" style="resize:none" required></textarea>
           <label for="floatingTextarea">Mensaje</label>
         </div>
         <input class="btn btn-primary" type="submit" value="Enviar">
@@ -238,51 +201,20 @@
 <script src="js/index.js" type="module"></script>
 <script>
   const d=document,
-            $shows=d.getElementById("shows"),
-            $template=d.getElementById("show-template").content,
-            $fragment=d.createDocumentFragment();
-            
-  d.addEventListener("keypress",async e=>{
-    if(e.target.matches("#search")){
-      if(e.key==="Enter"){
-        try{
-          $shows.innerHTML=`<div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
-          </div>`;
-          let query=e.target.value.toLowerCase(),
-            api=`https://api.tvmaze.com/search/shows?q=${query}`,
-            res=await fetch(api),
-            json=await res.json();
-            console.log(json);
-          if(!res.ok)throw {status:res.status,statusText:res.statusText};
-          if(json.length===0){
-            $shows.innerHTML=`<h2>No existen resultados de shows para el criterio de búsqueda: <em>${query}</em></h2>`
-          }else{
-            json.forEach(el=>{
-              $template.querySelector("h3").textContent=el.show.name;
-              $template.querySelector("article").innerHTML=el.show.summary ?el.show.summary :"Sin descripción";
-              $template.querySelector("img").src=el.show.image ?el.show.image.medium :"http//static.tvmaze.com/image/no-img/no-img-portrait-text.png";
-              $template.querySelector("img").alt=el.show.name;
-              $template.querySelector("img").style.maxWidth="100%";
-              $template.querySelector("a").href=el.show.url ?el.show.url :"#";
-              $template.querySelector("a").target=el.show.url ?"_blank" :"_self";
-              $template.querySelector("a").textContent=el.show.url ?"Ver más..." :"";
-              
-              let $clone=d.importNode($template,true);
-              $fragment.appendChild($clone);              
-            })
-            $shows.innerHTML="";
-            $shows.appendChild($fragment);
-          }
-        }catch(err){
-          let message=err.statusText || "Ocurrió un error";
-          $shows.innerHTML=`<p>Error ${err.status}: ${message}</p>`;
-        }
-      }
-    }
-  });
-              
-</script>
-    
+    $i=d.querySelectorAll(".icons");
+console.log($i);
+
+  $i.forEach(el=>{
+    el.addEventListener("mouseover",e=>{
+      el.classList.add("fa-beat-fade")
+      setTimeout(()=>el.classList.remove("fa-beat-fade"),1000);
+        
+     
+      
+    })
+  })
+  
+ 
+</script>   
 </body>
 </html>

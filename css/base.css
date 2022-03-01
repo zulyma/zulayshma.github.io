@@ -26,6 +26,7 @@ h2{
 
 
 
+
 /*-------------------Root---------------*/
 
 :root{
@@ -159,6 +160,11 @@ section{
     margin: 1rem auto;
     text-align: center;
 }
+h5{
+    background-color: rgba(34, 34, 34, 0.39);
+    border-radius: 8px;
+    padding: 0.5em;
+}
 
 
 /*-------------------DarkThemeButton---------------*/
@@ -233,36 +239,7 @@ section{
     visibility: hidden;
     opacity: 0;
 }
-/*-------------------shows---------------*/
-#font-p{
-    font-family: 'Merriweather', serif;
-    color: var(--second-color);
-}
-.card{
-    background-color: var(--second-color);
 
-}
-.movies{
-    padding:1rem ;
-    
-}
-.spinner-border{
-    width: auto;
-    display:block;
-    margin: auto;
-    color: var(--second-color);
-}
-#name-movie{
-    color: var(--main-color);
-}
-#summary{
-    color: rgba(255, 255, 255, 0.897);
-    
-}
-#more{
-    text-decoration: none;
-    color: var(--main-color);
-}
 /*-------------------ContactForm Validations---------------*/
 .contact-form{
     --form-ok-color:#4caf50;
@@ -310,9 +287,10 @@ section{
 .contact-form-error{
     margin-top: -1rem;
     font-size: 80%;
-    background-color: var(--form-error-color);
+    background-color: rgba(34, 34, 34, 0.39);
     color: #fff;
     transition: all 800ms ease;
+    
 }
 
 .contact-form-error.is-active{
