@@ -198,6 +198,7 @@ h5{
 
 .container{
     background-image: radial-gradient(circle at 56.16% 120.44%, #a1ffff 0, #8effff 12.5%, #7ffffa 25%, #73f5ec 37.5%, #6cd8d8 50%, #67bcc1 62.5%, #64a3ac 75%, #618f99 87.5%, #5e7e88 100%);
+    padding: 2rem;
     
     
 }
