@@ -154,12 +154,17 @@ section{
     background-color: var(--main-modal-color);
 }
 /*----------------------Intereses------------------------------------*/
-.carousel{
-    position: relative;
-    width: 50%;
-    margin: 1rem auto;
+.section1{
+    padding: 6rem;
+    padding-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width:800px;
+    min-height: 100vh;
     text-align: center;
 }
+
 h5{
     background-color: rgba(34, 34, 34, 0.39);
     border-radius: 8px;
